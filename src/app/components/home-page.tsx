@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className="md:flex md:min-h-screen justify-center md:gap-16 md:pt-40 md:pb-40 container mx-auto flex flex-col items-start md:flex-row my-4 md:my-8 border-b-2">
+    <div className="md:flex md:min-h-screen justify-center md:gap-16 md:pt-20 md:pb-40 container mx-auto flex flex-col items-start md:flex-row my-4 md:my-8 border-b-2">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{
