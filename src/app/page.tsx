@@ -1,6 +1,6 @@
 import AboutPage from "./components/about-page";
 import HomePage from "./components/home-page";
-import LitepaperPage from "./components/llitepaper";
+import WhitepaperPage from "./components/whitepaper";
 import RoadmapPage from "./components/roadmap-page";
 import TokenomicPage from "./components/tokenomic-page";
 
@@ -11,7 +11,7 @@ export default function Home() {
       <AboutPage />
       <RoadmapPage />
       <TokenomicPage />
-      <LitepaperPage />
+      <WhitepaperPage />
     </>
   );
 }

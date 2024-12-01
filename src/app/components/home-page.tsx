@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className="md:flex md:min-h-screen justify-center md:gap-16 md:pt-20 md:pb-40 container mx-auto flex flex-col items-start md:flex-row my-4 md:my-8 border-b-2">
+    <div className="container mx-auto flex flex-col items-start md:flex-row my-4 md:my-8 md:flex md:min-h-screen justify-center md:gap-16 md:pt-20 md:pb-40 border-b-2 ">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{
@@ -31,7 +31,7 @@ export default function HomePage() {
           transition: { duration: 0.5 },
         }}
       >
-        <div className="m-10 justify-start">
+        <div className="container items-start p-2 md:flex-row my-4 md:my-8">
           <h1 className="text-4xl md:text-6xl font-bold mb-7 text-center md:text-start">
             Satoshi Vision
           </h1>
@@ -40,7 +40,12 @@ export default function HomePage() {
           </h3>
           <h3>
             Contract Address
-            <p>Base : 0x93d65a935e7c0f1aa153780e0db3ad08b9448c89</p>
+            <p>
+              Base :{" "}
+              <span className="truncate">
+                0x7588880d9c78E81FAde7b7e8DC0781E95995a792
+              </span>
+            </p>
             <p>Solana : 8PXfc6tVKNLUaa6pTfN7VBeTLhe8TH6WpVDYBjG9DWhV</p>
           </h3>
           <div className="flex gap-2 mt-7">
