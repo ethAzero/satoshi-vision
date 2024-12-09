@@ -42,7 +42,7 @@ export default function HomePage() {
             Contract Address
             <p>
               Base :{" "}
-              <span className="truncate">
+              <span className="w-13 truncate overflow-hidden text-ellipsis">
                 0x7588880d9c78E81FAde7b7e8DC0781E95995a792
               </span>
             </p>
