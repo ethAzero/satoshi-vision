@@ -85,7 +85,7 @@ export default function WhitepaperPage() {
                       />
                     </Link>
                     <Link
-                      href={"https://t.me/+bbwDofGgcDBkYzRh"}
+                      href={"https://t.me/SAINT_byVirtual"}
                       className="flex gap-1"
                       target="_blank"
                     >

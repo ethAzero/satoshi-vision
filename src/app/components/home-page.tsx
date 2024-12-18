@@ -97,7 +97,7 @@ export default function HomePage() {
             </Button>
             <Button>
               <Link
-                href={"https://t.me/+bbwDofGgcDBkYzRh"}
+                href={"https://t.me/SAINT_byVirtual"}
                 className="flex gap-1"
                 target="_blank"
               >
